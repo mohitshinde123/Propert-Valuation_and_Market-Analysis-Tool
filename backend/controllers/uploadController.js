@@ -6,7 +6,7 @@ import {
   getAuthParams,
   listImages,
   getOptimizedUrl
-} from '../config/imageKit.js';
+} from '../config/imagekit.js';
 
 // @desc    Upload single image
 // @route   POST /api/upload/single
