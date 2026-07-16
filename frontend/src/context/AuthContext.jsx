@@ -7,7 +7,7 @@ const AuthContext = createContext(undefined);
 // Check if backend is available
 const isBackendAvailable = async () => {
   try {
-    const response = await fetch('http://localhost:5000/api/health', { 
+    const response = await fetch('https://propert-valuation-and-market-analysis.onrender.com/api/health', { 
       signal: AbortSignal.timeout(2000) 
     });
     return response.ok;
