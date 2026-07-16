@@ -2,8 +2,8 @@ import ImageKit from 'imagekit';
 
 // Initialize ImageKit
 const imagekit = new ImageKit({
-  publicKey: process.env.IMAGEKIT_PUBLIC_KEY || 'public_key_here',
-  privateKey: process.env.IMAGEKIT_PRIVATE_KEY || 'private_key_here',
+  publicKey: process.env.IMAGEKIT_PUBLIC_KEY || 'public_fYwFHAMfqUhun+n5DLmKGE8a/sk=',
+  privateKey: process.env.IMAGEKIT_PRIVATE_KEY || 'public_fYwFHAMfqUhun+n5DLmKGE8a/sk=',
   urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT || 'https://ik.imagekit.io/your_imagekit_id/'
 });
 
