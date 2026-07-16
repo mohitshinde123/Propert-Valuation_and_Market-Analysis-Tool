@@ -218,7 +218,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173)
+Open [(https://radiant-sorbet-ae18a0.netlify.app/)]
 
 ### Option 2: Full Stack Setup
 
