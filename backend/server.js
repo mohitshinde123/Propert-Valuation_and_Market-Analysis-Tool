@@ -70,6 +70,15 @@ app.use((req, res, next) => {
   next();
 });
 
+// Welcome/Root check route
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'Welcome to Indian RealEstate API Server',
+    healthCheck: '/api/health'
+  });
+});
+
 // Health check route
 app.get('/api/health', (req, res) => {
   res.status(200).json({
