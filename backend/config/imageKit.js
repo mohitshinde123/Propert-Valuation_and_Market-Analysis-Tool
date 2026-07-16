@@ -1,4 +1,4 @@
-import ImageKit from 'imagekit';
+import ImageKit from 'imageKit';
 
 // Initialize ImageKit
 const imagekit = new ImageKit({
